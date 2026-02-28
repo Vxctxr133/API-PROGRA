@@ -14,4 +14,4 @@ app.include_router(undo_controller.router)
 
 @app.get("/", tags=["Inicio"], summary="Comprobar estado del servidor")
 def inicio():
-    return {"mensaje": "¡El servidor base está funcionando perfectamente!"}
+    return {"¡El servidor base está funcionando perfectamente!"}
